@@ -72,6 +72,7 @@ const HomeScreen = () => {
         }
 
         setFaces(faces)
+
         setLastFace(Math.max(...faces.map(f => f.faceID)))
 
         try {
@@ -83,7 +84,10 @@ const HomeScreen = () => {
                 .map(f => (
                     {
                         station_id: stationId,
-                        face_id: f.faceID
+                        face_id: f.faceID,
+                        timestamp: (new Date()).toLocaleString('en-US', {
+                            hour12: false
+                        })
                     })
                 )
 
