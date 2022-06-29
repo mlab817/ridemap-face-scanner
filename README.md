@@ -204,3 +204,7 @@ There is also the issue of duplication since the app does not use a
 backend to analyze facial features and eliminate duplicates. So if a 
 person takes too long in the queueing line, they can be scanned more than
 once.
+
+## Author
+
+This app is developed by [Mark Lester Bolotaolo](https://github.com/mlab817).
