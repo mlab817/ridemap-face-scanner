@@ -38,7 +38,7 @@ Follow the following steps to get set up:
 1. Clone this repository
 
 ```console
-git clone https://github.com/mlab817/ridemap-counter.git
+git clone https://github.com/mlab817/ridemap-face-scanner.git
 ```
 
 2. Change directory to ridemap-counter
